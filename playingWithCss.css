@@ -1,0 +1,27 @@
+.mainContainer{
+    display:grid;
+    grid-template-areas:
+    "top1 top top2"
+   "topLeft topMiddle topRight"
+   "bottom bottom bottom";
+}
+#heading{
+    grid-area:top;
+    font-size: 30pt;
+    font-family: sans-serif;
+}
+#position{
+    grid-area:topLeft;
+}
+#blur{
+    grid-area:topMiddle;
+}
+#backgroundColor{
+    grid-area:topRight;
+}
+#image{
+    grid-area:bottom;
+   justify-content: center;
+   
+}
+
